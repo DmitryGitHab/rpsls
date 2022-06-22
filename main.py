@@ -2,6 +2,7 @@ import random
 elements = ["rock", "paper", "scissors", "lizard", "spock"]
 elements_list = "(rock paper scissors lizard spock)?"
 
+
 def choose_element():
     player_element = input(f"Make your choose {elements_list}\n>>>  ").lower()
     pc_element = random.choice(elements)
